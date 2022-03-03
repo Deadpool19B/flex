@@ -19,9 +19,12 @@ body div html p h1 span label {
 }
 #images {
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .image {
-    float: left;
+
     padding: 11px;
     border: 5px solid gold;
     width: 300px;
